@@ -10,7 +10,7 @@ Permite crear, editar, completar y eliminar tareas, manteniendo la información 
 
 ## 🚀 Demo
 
-[Próximamente disponible en Vercel.](https://to-do-list-firebase-murex.vercel.app/)
+[Link Demo.](https://to-do-list-firebase-murex.vercel.app/)
 
 ---
 
