@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* Fuentes */
+  --font-body: "Geist", sans-serif;
+  --font-title: "Space Grotesk", sans-serif;
+  /* Colores */
+  --color-primary: #121212;
+  --color-secondary: #1e1e1e;
+  --color-body: #fff;
+  --color-borde: #aaaaaa;
+  --color-enfasis: #6c63ff;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    font-size: 16px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-title);
+  }
+}
